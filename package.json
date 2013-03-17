@@ -1,0 +1,27 @@
+{
+  "name": "frontend-starter-kit",
+  "version": "1.0.0",
+  "description": "A lightweight Front End starter kit for create awesome web apps",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pinceladasdaweb/frontend-starter-kit"
+  },
+  "keywords": [
+    "frontend",
+    "responsive"
+  ],
+  "author": {
+    "name": "Pedro Rogerio",
+    "url": "https://github.com/pinceladasdaweb"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+}

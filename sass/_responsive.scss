@@ -1,0 +1,57 @@
+
+// Set here the default browser font-size to use 'em' based media queries
+$browser-context: 10;
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-device-width: em(320)) and (max-device-width: em(480)) {
+	/* Set styles here */
+}
+
+/* Smartphones (landscape) ----------- */
+@media screen and (min-width: em(321)) {
+	/* Set styles here */
+}
+
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width: em(320)) {
+	/* Set styles here */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-device-width: em(768)) and (max-device-width: em(1024)) {
+	/* Set styles here */
+}
+
+/* iPads (landscape) ----------- */
+@media screen and (min-device-width: em(768)) and (max-device-width: em(1024)) and (orientation: landscape) {
+	/* Set styles here */
+}
+
+/* iPads (portrait) ----------- */
+@media screen and (min-device-width : em(768)) and (max-device-width : em(1024)) and (orientation: portrait) {
+	/* Set styles here */
+}
+
+/* Desktops and laptops ----------- */
+@media screen and (min-width : em(1224)) {
+	/* Set styles here */
+}
+
+/* Large screens ----------- */
+@media screen and (min-width : em(1824)) {
+	/* Set styles here */
+}
+
+/* iPhone 4 ----------- */
+@media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+	/* Set styles here */
+}
+
+/* iPhone 5 ----------- */
+@media screen and (device-width: em(320)) and (device-height: em(568)) and (-webkit-device-pixel-ratio: 2){
+	/* Set styles here */
+}

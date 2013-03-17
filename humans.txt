@@ -1,0 +1,12 @@
+                            
+/* TEAM */                  
+Your title: Pedro Rogério.                  
+Site: pinceladasdaweb@hotmail.com      
+Twitter: @pinceladasdaweb.
+Location: São Paulo, Brasil.
+
+
+/* SITE */
+Last update: YYYY/MM/DD
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery, Grunt, SASS
