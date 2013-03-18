@@ -1,0 +1,7 @@
+@include font-face('fanwood_text',
+	font-files(
+		'fanwood_text_italic-webfont.woff',
+		'fanwood_text_italic-webfont.ttf',
+		'fanwood_text_italic-webfont.svg#fanwood_textitalic'
+	), "fanwood_text_italic-webfont.eot", normal, italic
+);
