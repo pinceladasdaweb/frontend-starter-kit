@@ -1,3 +1,4 @@
+@import "compass/css3/font-face";
 /**
 * @file style.css
 * @author Pedro Rogerio, <http://www.pinceladasdaweb.com.br>
@@ -101,6 +102,31 @@ pre {
 */
 main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block
+}
+
+/**
+* @section Main
+* Custom Styles/Fonts here
+*/
+@import "typography";
+
+body {
+  font:62.5% arial, helvetica, sans-serif
+}
+
+header, main, footer {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center
+}
+
+h1 {
+  font: 6em 'fanwood_text';
+  text-align: center
+}
+
+p {
+	font-size: 1.4em
 }
 
 /**
