@@ -92,6 +92,13 @@ pre {
   white-space: pre-line;
   word-wrap: break-word; }
 
+.cf:before, .cf:after {
+  content: "";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
 /**
 * @section HTML5 Elements
 * Set display:block for HTML5 block elements
