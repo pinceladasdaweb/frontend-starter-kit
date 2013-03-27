@@ -97,6 +97,15 @@ pre {
 }
 
 /**
+* Image Replacement
+*/
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/**
 * @section HTML5 Elements
 * Set display:block for HTML5 block elements
 */
