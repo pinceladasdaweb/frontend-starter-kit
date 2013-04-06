@@ -92,12 +92,13 @@ pre {
   white-space: pre-line;
   word-wrap: break-word; }
 
-.cf:before, .cf:after {
-  content: "";
-  display: table; }
-
-.cf:after {
-  clear: both; }
+/**
+* Image Replacement
+*/
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
 
 /**
 * @section HTML5 Elements
@@ -137,7 +138,19 @@ p {
 * Stylesheets for print here
 */
 @media print {
-  /* Set styles here */ }
+  body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", serif; }
+
+  a {
+    color: #0066CC;
+    font-weight: bold;
+    text-decoration: underline;
+    word-wrap: break-word; }
+
+  a[href^="http://"]:after, a[href^="https://"]:after {
+    content: " (" attr(href) ")"; } }
 /**
 * @section Responsive
 * Responsify your site here
