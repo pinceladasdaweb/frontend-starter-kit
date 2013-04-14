@@ -93,6 +93,16 @@ pre {
   word-wrap: break-word; }
 
 /**
+* Clearfix
+*/
+.cf:before, .cf:after {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+/**
 * Image Replacement
 */
 .hide-text {
