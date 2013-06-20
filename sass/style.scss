@@ -12,109 +12,109 @@
 * These styles reset the default style sheet that comes with the user agent.
 */
 html {
-    overflow-y:scroll;
-    min-height:100%
+    overflow-y: scroll;
+    min-height: 100%
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, fieldset, blockquote, pre, textarea {
-	margin:0
+    margin: 0
 }
 
 ul, ol, td, th, fieldset, legend {
-	padding:0	
+    padding: 0  
 }
 
 fieldset{border: none}
 
 input, select {
-	font: 99% sans-serif;
-	vertical-align:middle
+    font: 99% sans-serif;
+    vertical-align: middle
 }
 
 input[type="radio"] {vertical-align: text-bottom}
 input[type="checkbox"] {vertical-align: bottom}
 
 input[type=button], input[type=submit], button {
-	cursor: pointer
+    cursor: pointer
 }
 
 input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
-	border: 0
+    border: 0
 }
 
 input[type="search"]{-webkit-appearance: textfield}
-input[type="submit"] {-webkit-appearance: none}
+input[type="submit"], input[type="text"], textarea {-webkit-appearance: none}
 
 textarea {
-	overflow: auto;
-	resize: vertical;
-	font: 99% sans-serif;
-	vertical-align: bottom
+    overflow: auto;
+    resize: vertical;
+    font: 99% sans-serif;
+    vertical-align: bottom
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0
+    border-collapse: collapse;
+    border-spacing: 0
 }
 td, td img {vertical-align: top}
 
 a {
-	text-decoration: none
+    text-decoration: none
 }
 
 img {
-	border:none;
-	height:auto;
-	max-width:100%
+    border: none;
+    height: auto;
+    max-width: 100%
 }
 
 abbr[title], acronym[title] {
-	border-bottom:1px dotted;
-	cursor:help
+    border-bottom: 1px dotted;
+    cursor:help
 }
 
 sub, sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
 }
 
-sup {top:-0.25em}
-sub {bottom:-0.25em}
+sup {top: -0.25em}
+sub {bottom: -0.25em}
 
 hr {
-	margin: 0;
-	padding: 0;
-	border-top: 1px solid #ccc
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ccc
 }
 
 pre {
-	white-space: pre;
-	white-space: pre-wrap;
-	white-space: pre-line;
-	word-wrap: break-word
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word
 }
 
 /**
 * Clearfix
 */
 .cf:before, .cf:after {
-	content: " ";
-	display: table
+    content: " ";
+    display: table
 }
 
 .cf:after {
-	clear: both
+    clear: both
 }
 
 /**
 * Image Replacement
 */
 .hide-text {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /**
@@ -122,7 +122,7 @@ pre {
 * Set display:block for HTML5 block elements
 */
 main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block
+    display: block
 }
 
 /**
@@ -132,13 +132,13 @@ main, article, aside, details, figcaption, figure, footer, header, hgroup, menu,
 @import "typography";
 
 body {
-  font:62.5% arial, helvetica, sans-serif
+    font: 62.5% arial, helvetica, sans-serif
 }
 
 header, main, footer {
-  max-width: 960px;
-  margin: 0 auto;
-  text-align: center
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center
 }
 
 h1 {
@@ -147,7 +147,7 @@ h1 {
 }
 
 p {
-	font-size: 1.4em
+    font-size: 1.4em
 }
 
 /**
